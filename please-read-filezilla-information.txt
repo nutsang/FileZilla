@@ -1,0 +1,26 @@
+========== Access mode for anonymous role ==========
+Read only
+========== Open anonymous role in explorer ==========
+ftp://legendaryknights.ddns.net
+========== Open anonymous role in Programming ==========
+{
+	host: "legendaryknights.ddns.net",
+	port: 21,
+	user: "anonymous",
+	password: ""
+}
+
+========== Access mode for member role ==========
+Read + Write
+========== Open member role in explorer ==========
+ftp://member:Member123456@legendaryknights.ddns.net
+FTP server: legendaryknights.ddns.net
+User name: member
+Password: Member123456@
+========== Open member role in Programming ==========
+{
+	host: "legendaryknights.ddns.net",
+	port: 21,
+	user: "member",
+	password: "Member123456@"
+}
